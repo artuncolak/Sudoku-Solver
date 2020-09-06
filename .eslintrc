@@ -1,0 +1,16 @@
+{
+  "extends": ["airbnb", "react-app", "plugin:prettier/recommended"],
+  "rules": {
+    "quotes": ["error", "double"],
+    "linebreak-style": "off",
+    "implicit-arrow-linebreak": "off",
+    "no-await-in-loop": "off",
+    "no-inner-declarations": ["error", "both"],
+    "no-shadow": "off",
+    "no-plusplus": "off",
+    "react/prop-types": "off",
+    "class-methods-use-this": "off",
+    "no-param-reassign": "off",
+    "react/button-has-type": "off"
+  }
+}
