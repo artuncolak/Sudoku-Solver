@@ -121,6 +121,15 @@ export default function SudokuSolver() {
               checked={isShowProcessChecked}
               onChange={(e) => setIsShowProcessChecked(e.target.checked)}
             />
+            {isShowProcessChecked ? (
+              <p className="mt-3 text-danger">
+                If you show solving process on difficult sudoku puzzles it can
+                take very long time. Uncheck show solving process if you wanna
+                solve difficult puzzles.
+              </p>
+            ) : (
+              ""
+            )}
             <Button
               className="mt-3 mr-1"
               variant="dark"
