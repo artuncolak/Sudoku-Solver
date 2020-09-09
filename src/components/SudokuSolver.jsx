@@ -71,7 +71,7 @@ export default function SudokuSolver() {
   };
 
   return (
-    <Row className="mt-5">
+    <Row className="mt-4">
       <Col sm={8} className="mb-5">
         <Board
           startGrid={startGrid}

@@ -34,6 +34,9 @@ h1 {
 }
 
 @media (max-width: 550px) {
+  h1 {
+    font-size: 45px;
+  }
   .sudoku-grid {
     width: 400px;
     height: 400px;
