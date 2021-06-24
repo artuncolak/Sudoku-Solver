@@ -9,8 +9,3 @@ If you show solving process on difficult sudoku puzzles it can take very long ti
 ## Solving in action
 
 ![On Action Gif](./OnActionGif.gif)
-
-## To do
-
-- [ ] Show value square by square
-- [ ] Sudoku generation
